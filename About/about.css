@@ -56,3 +56,86 @@ a:hover {
     50%  {color: blue;}
     100% {color: whitesmoke;}
 }
+
+section {
+    margin-top: 120px;
+}
+
+section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 70px;
+}
+.container1 {
+display: flex;
+flex-direction: column-reverse;
+justify-content: center;
+align-items: center;
+}
+
+.text1 {
+    font-size: large;
+    font-weight: 200;
+    text-shadow: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    line-height: 35px;
+    
+}
+
+.box1 img {
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 400px;
+ width: 700px;
+ margin-top: 100px;
+ border-radius: 10px;
+ margin-bottom: 30px;
+ animation: img-animation 5s linear  infinite;
+}
+
+/* footer */
+
+footer {
+    background-color: #0e0e1a;
+    height: 233px;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 125px;
+    justify-content: space-evenly;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer div {
+    width: 223px;
+}
+
+footer .text {
+position: relative;
+top: 40px;
+}
+
+.first h3 {
+    position: absolute;
+    top: 2130px;
+    right: 1050px;
+    animation: Talha 2s linear 1s infinite;
+}
+
+/* Box Animation Image */
+
+@keyframes img-animation {
+    from {
+transform: scale(0);
+    }
+
+    to { 
+transform: scale(1);
+    }
+}
